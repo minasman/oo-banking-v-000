@@ -1,3 +1,5 @@
 class Transfer
-  # your code here
+  
+  def initialize(account_to, account_from, )
+  end
 end
