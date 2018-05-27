@@ -12,4 +12,9 @@ class Transfer
   def valid?
     sender.valid? && receiver.valid? ? TRUE : FALSE
   end 
+  
+  def execute_transaction
+    sender.balance -= amount
+    receiver.balance += amount
+  end
 end
